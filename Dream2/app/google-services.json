@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "19046741462",
+    "firebase_url": "https://dream-f6445.firebaseio.com",
+    "project_id": "dream-f6445",
+    "storage_bucket": "dream-f6445.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:19046741462:android:5b6d455a277f97a611a077",
+        "android_client_info": {
+          "package_name": "com.example.dream"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "19046741462-g4v4bgteq9q2b0vb7et69ht865t789pu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC_ZhpJ4nhFXkHuS4Uai_VGMEpTeGiHcfo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "19046741462-g4v4bgteq9q2b0vb7et69ht865t789pu.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

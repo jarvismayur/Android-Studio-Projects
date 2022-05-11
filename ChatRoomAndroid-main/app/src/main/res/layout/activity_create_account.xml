@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".create_account"
+    android:background="@drawable/chatroom">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/t1"
+        android:text="@string/Heading"
+        android:textAlignment="center"
+        android:gravity="center"
+        android:fontFamily="cursive"
+        android:textSize="60sp"
+        android:textColor="#fff"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/t2"
+        android:layout_below="@+id/t1"
+        android:text="Create Account "
+        android:textAlignment="center"
+        android:gravity="center"
+        android:fontFamily="cursive"
+        android:textSize="30sp"
+        android:layout_marginTop="90sp"
+        android:textColor="#fff"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/e1"
+        android:layout_below="@+id/t2"
+        android:hint="email"
+        android:textSize="22sp"
+        android:fontFamily="cursive"
+        android:textAlignment="center"
+        android:gravity="center"
+        android:layout_marginTop="40sp"
+        android:textColorHint="#fff"
+        android:textColor="#fff"
+        android:inputType="textEmailAddress"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/e2"
+        android:layout_below="@+id/e1"
+        android:hint="Password"
+        android:textSize="22sp"
+        android:textColorHint="#fff"
+        android:fontFamily="cursive"
+        android:textAlignment="center"
+        android:gravity="center"
+        android:layout_marginTop="40sp"
+        android:textColor="#fff"
+        android:inputType="textPassword"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/e3"
+        android:layout_below="@+id/e2"
+        android:hint="username[ Only _ allowed] "
+        android:textSize="22sp"
+        android:textColorHint="#fff"
+        android:fontFamily="cursive"
+        android:textAlignment="center"
+        android:gravity="center"
+        android:layout_marginTop="40sp"
+        android:textColor="#fff"
+        android:inputType="text"/>
+
+
+    <Button
+        android:layout_width="250sp"
+        android:layout_height="wrap_content"
+        android:id="@+id/but1"
+        android:layout_below="@+id/e3"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50sp"
+        android:textColor="#000"
+        android:background="@drawable/rounded"
+        android:text="Create Account"/>
+
+    <Button
+        android:layout_width="250sp"
+        android:layout_height="wrap_content"
+        android:id="@+id/but2"
+        android:layout_below="@+id/but1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50sp"
+        android:textColor="#000"
+        android:background="@drawable/rounded"
+        android:text="Login"/>
+
+
+</RelativeLayout>

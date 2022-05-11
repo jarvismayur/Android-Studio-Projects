@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/chatroom"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Welcome "
+        android:textSize="60sp"
+        android:id="@+id/t1"
+        android:layout_centerVertical="true"
+        android:textAlignment="center"
+        android:gravity="center"
+        android:textColor="#fff"
+         />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="To The World Of Chat Room"
+        android:id="@+id/t2"
+        android:layout_below="@id/t1"
+        android:textAlignment="center"
+        android:textColor="#fff"
+        android:gravity="center"
+        />
+
+    <Button
+        android:layout_width="250sp"
+        android:layout_height="wrap_content"
+        android:id="@+id/but1"
+        android:layout_below="@+id/t2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50sp"
+        android:textColor="#000"
+        android:background="@drawable/rounded"
+        android:text="Start Tour"/>
+</RelativeLayout>

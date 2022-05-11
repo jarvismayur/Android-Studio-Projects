@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context=".Details">
+    <ImageView
+        android:layout_width="300sp"
+        android:layout_height="300sp"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/logo"
+        android:id="@+id/imageViewDetails"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="40sp"
+        android:id="@+id/text_book_name"
+        android:layout_centerVertical="true"
+        android:textColor="@color/black"
+        />
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/text_publisher_name"
+        android:textColor="@color/black"
+        android:layout_below="@id/text_book_name"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/text_price"
+        android:layout_below="@id/text_publisher_name"
+        android:textColor="@color/black"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Whatsapp"
+        android:id="@+id/button_whatsapp"
+        android:layout_below="@id/text_price"
+        />
+
+
+</RelativeLayout>

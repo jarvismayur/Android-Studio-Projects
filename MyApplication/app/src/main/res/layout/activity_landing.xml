@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Landing">
+
+    <ImageView
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="120dp"
+        android:src="@drawable/logo"
+        android:id="@+id/logo"
+        />
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="75dp"
+        android:id="@+id/text1"
+        android:text="Welcome to BookRoid Exchanger"
+        android:padding="12dp"
+        android:layout_centerHorizontal="true"
+        android:textAlignment="center"
+        android:textSize="25dp"
+        android:layout_below="@+id/logo"
+        />
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="80dp"
+        android:layout_margin="12dp"
+        android:text="Login"
+        android:id="@+id/loginBut"
+        android:layout_below="@id/text1"/>
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="80dp"
+        android:layout_margin="12dp"
+        android:text="SignUp"
+        android:id="@+id/signBut"
+        android:layout_below="@id/loginBut"/>
+
+</RelativeLayout>
