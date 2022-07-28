@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="educracypedia.com.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+    <fragment
+        android:id="@+id/nav_studycentral"
+        android:name="educracypedia.com.ui.StudyCentral"
+        android:label="@string/menu_studycentral"
+        tools:layout="@layout/study_central_fragment" />
+
+    <fragment
+        android:id="@+id/nav_news"
+        android:name="educracypedia.com.ui.News"
+        android:label="@string/menu_news"
+        tools:layout="@layout/news_fragment" />
+
+    <fragment
+        android:id="@+id/nav_contact_us"
+        android:name="educracypedia.com.ui.ContactUs"
+        android:label="@string/menu_contact_us"
+        tools:layout="@layout/contact_us_fragment" />
+    <fragment
+        android:id="@+id/nav_terms"
+        android:name="educracypedia.com.ui.Terms"
+        android:label="@string/menu_terms"
+        tools:layout="@layout/terms_fragment" />
+
+
+</navigation>
