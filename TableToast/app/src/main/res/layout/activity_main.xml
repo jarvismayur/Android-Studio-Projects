@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TableRow
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        >
+        <TextView
+            android:layout_width="120dp"
+            android:layout_height="fill_parent"
+            android:layout_column="1"
+            android:textAlignment="center"
+            android:textSize="18dp"
+            android:text="Name"/>
+        <EditText
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:hint="Enter Full  Name ..  "
+            android:layout_column="2"
+            android:id="@+id/edit_name"/>
+    </TableRow>
+    <TableRow
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        >
+        <TextView
+            android:layout_width="120dp"
+            android:layout_height="fill_parent"
+            android:layout_column="1"
+            android:textAlignment="center"
+            android:textSize="18dp"
+            android:text="Name"/>
+        <EditText
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:hint="Enter Full  Name ..  "
+            android:layout_column="2"
+            android:id="@+id/edit_name_2"/>
+    </TableRow>
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="45dp"
+        android:text="Click Me For Toast !"
+        android:id="@+id/button"/>
+    <TableRow>
+
+    </TableRow>
+
+
+
+
+
+</TableLayout>
