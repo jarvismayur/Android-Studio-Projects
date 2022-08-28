@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">MyFristApp</string>
+    <string name="header">Student Information Form </string>
+</resources>
